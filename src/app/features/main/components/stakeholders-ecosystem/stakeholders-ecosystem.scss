@@ -1,0 +1,115 @@
+:root {
+  --bg-dark: #1B1B1B;
+  --navy: #001B31;
+  --navy-soft: #283544;
+  --ink: #F5F2ED;
+  --muted: #D2CEC7;
+  --gold: #B9944F;
+  --border-soft: #4E5A66;
+}
+
+.ecosystem {
+  background: var(--bg-dark);
+  color: var(--ink);
+  padding: 3rem 0;
+  min-height: auto;
+  padding-bottom: 7rem;
+}
+
+.ecosystem__wrap {
+
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/* Títulos */
+.ecosystem__header {
+  margin-bottom: 1.3rem;
+}
+
+.ecosystem__header--spaced {
+  margin-top: 2.4rem;
+}
+
+.ecosystem__title {
+  font-family: 'Inria Serif', serif !important;
+  color: var(--gold-2);
+  font-size: clamp(1.2rem, 2.3vw, 1.6rem);
+  margin: 0;
+}
+
+/* Grid superior (tarjetas cuadradas) */
+.ecosystem__grid-top {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .9rem;
+  margin-bottom: 1.2rem;
+}
+
+.ecosystem__card {
+  background: var(--bluenavy-3);
+  border-radius: 0.5rem;
+  border: 1px solid var(--gold-1);
+  padding: .7rem 1rem;
+  font-size: .9rem;
+  line-height: 1.4;
+  color: var(--ink);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, .45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Card única de la segunda fila */
+.ecosystem__card--single {
+  grid-column: 1 / span 1;
+}
+
+/* Grid inferior (píldoras full width) */
+.ecosystem__grid-bottom {
+  margin-top: 1.2rem;
+  display: grid;
+  gap: .7rem;
+}
+
+.ecosystem__pill {
+  background: var(--bluenavy-3);
+  border-radius: 0.5rem;
+  border: 1px solid var(--gold-1);
+  padding: .55rem 1.6rem;
+  font-size: .94rem;
+  text-align: center;
+  color: var(--ink);
+  line-height: 1.45;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, .45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover opcional coherente con secciones previas */
+.ecosystem__card:hover,
+.ecosystem__pill:hover {
+  border-color: var(--gold);
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, .6);
+  transition: all .16s ease-out;
+}
+
+/* Responsive */
+@media (max-width:960px) {
+  .ecosystem__grid-top {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width:640px) {
+  .ecosystem__grid-top {
+    grid-template-columns: 1fr;
+  }
+
+  .ecosystem__card--single {
+    grid-column: auto;
+  }
+}

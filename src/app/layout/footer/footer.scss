@@ -1,0 +1,121 @@
+:root {
+    --footer-bg: #1A232C;
+    --navy: #001B31;
+    --gold: #B9944F;
+    --ink: #F5F2ED;
+    --muted: #CFCBC5;
+    --btn-footer: #3C4D5C;
+    --btn-footer-hover: #4E6070;
+}
+
+.footer__top-border {
+    height: 3px;
+    background: var(--gold-1);
+}
+
+.footer__bar {
+    background: var(--footer-bg);
+    color: var(--ink);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 .75rem 0 1.25rem;
+    font-size: .82rem;
+}
+
+.footer__brand {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    text-decoration: none;
+    color: var(--ink);
+}
+
+.footer__logo {
+    width: 10rem;
+    height: auto;
+    padding: 2rem 0;
+}
+
+.footer__brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.footer__brand-name {
+    font-family: "Playfair Display", "Cormorant Garamond", serif;
+    font-size: .9rem;
+    letter-spacing: .05em;
+}
+
+.footer__brand-sub {
+    font-size: .7rem;
+    opacity: .8;
+}
+
+.footer__address {
+    margin: 0;
+    color: var(--muted);
+    white-space: nowrap;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: auto;
+}
+
+.footer__nav a {
+    text-decoration: none;
+    color: var(--ink);
+    opacity: .9;
+}
+
+.footer__nav a:hover {
+    opacity: 1;
+}
+
+.footer__contact-btn {
+    margin-left: 1rem;
+    padding: .3rem 1.2rem;
+    border-radius: 4px;
+    background: var(--btn-footer);
+    color: var(--ink);
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+.footer__contact-btn:hover {
+    background: var(--btn-footer-hover);
+}
+
+@media (max-width:900px) {
+    .footer__bar {
+        flex-wrap: wrap;
+        gap: .75rem;
+    }
+
+    .footer__address {
+        white-space: normal;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .footer__bar {
+        align-items: flex-start;
+        padding: .6rem .9rem 1rem;
+    }
+
+    .footer__nav {
+        margin-left: 0;
+        order: 3;
+    }
+
+    .footer__contact-btn {
+        order: 2;
+        margin-left: 0;
+    }
+}

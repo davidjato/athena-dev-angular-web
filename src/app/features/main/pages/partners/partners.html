@@ -1,3 +1,31 @@
 <section id="partners">
+    <div class="partners__wrap">
+        <!-- Etiqueta vertical izquierda -->
+        <div class="partners__label" aria-hidden="true">Partners</div>
 
+        <!-- Texto -->
+        <div class="partners__info" aria-live="polite">
+            <h2 class="partners__name">{{ currentPartner.name }}</h2>
+            <h3 class="partners__role">{{ currentPartner.role }}</h3>
+            <ul class="partners__bullets">
+                <li *ngFor="let bullet of currentPartner.bullets">{{ bullet }}</li>
+            </ul>
+
+            <!-- Thumbnails -->
+            <div class="partners__thumbs" role="tablist" aria-label="Select partner">
+                <button *ngFor="let partner of partners; let i = index" class="partners__thumb"
+                    [class.is-active]="isActive(i)" role="tab" [attr.aria-selected]="isActive(i)"
+                    (click)="selectPartner(i)">
+                    <img [src]="partner.thumb" [alt]="partner.name" />
+                </button>
+            </div>
+        </div>
+
+        <!-- Escenario 3D (profundidad) -->
+        <div class="partners__stage" role="region" aria-label="Partners gallery">
+            <!-- Slides (mismas dimensiones, superpuestos) -->
+            <img *ngFor="let partner of partners; let i = index" class="partners__slide" [class.is-active]="isActive(i)"
+                [ngStyle]="getSlideStyle(i)" [src]="partner.image" [alt]="'Bust of ' + partner.name" />
+        </div>
+    </div>
 </section>

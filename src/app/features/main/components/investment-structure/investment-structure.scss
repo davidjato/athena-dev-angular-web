@@ -1,0 +1,87 @@
+:root {
+  --bg-dark: #1B1B1B;
+  --card-bg: #303A43;
+  --ink: #F5F2ED;
+  --muted: #D3D0CA;
+  --gold: #B9944F;
+}
+
+.segments {
+  background: var(--bg-dark);
+  color: var(--ink);
+  padding: 0;
+}
+
+.segments__wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.segments__header {
+  margin-bottom: 1.4rem;
+}
+
+.segments__title {
+  font-family: 'Inria Serif', serif !important;
+  color: var(--gold-2);
+  font-size: clamp(1.2rem, 2.3vw, 1.6rem);
+  margin: 0;
+}
+
+/* Grid 2x2 */
+.segments__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+/* Card */
+.segments__card {
+  background: var(--bluenavy-3);
+  border-radius: 0.5rem;
+  border: 1px solid var(--gold-1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, .45);
+}
+
+.segments__image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+.segments__body {
+  padding: .8rem 1rem 1rem;
+  font-size: .93rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.segments__card-title {
+  margin: 0 0 .45rem;
+  font-family: 'Inria Serif', serif !important;
+  color: var(--gold-2);
+  font-size: 1.02rem;
+}
+
+/* Hover suave */
+.segments__card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 26px rgba(0, 0, 0, .6);
+  transition: all .18s ease-out;
+}
+
+/* Responsive */
+@media (max-width:780px) {
+  .segments__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .segments__image {
+    height: 180px;
+  }
+}

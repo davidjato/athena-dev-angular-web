@@ -1,3 +1,75 @@
-<section id="contact">
+<section class="contact" id="contact">
+    <!-- Columna mapa -->
+    <div class="contact__map">
+        <div id="athena-map" style="width:100%;height:100%;min-height:300px;border-radius:0.5rem;"></div>
+    </div>
 
+    <!-- Columna formulario -->
+    <div class="contact__panel">
+        <div class="contact__panel-inner">
+            <header class="contact__header">
+                <h2 class="contact__title">Always here for you</h2>
+
+                <div class="contact__social">
+                    <a href="#" aria-label="Facebook">
+                        <img src="/assets/icons/facebook.svg" alt="Facebook" width="28" height="28" />
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <img src="/assets/icons/instagram.svg" alt="Instagram" width="28" height="28" />
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <img src="/assets/icons/linkedin.svg" alt="LinkedIn" width="28" height="28" />
+                    </a>
+                    <a href="#" aria-label="Telegram">
+                        <img src="/assets/icons/telegram.svg" alt="Telegram" width="28" height="28" />
+                    </a>
+                </div>
+            </header>
+
+            <form class="contact__form">
+                <label class="contact__field">
+                    <span class="contact__label-text sr-only">Topic</span>
+                    <div class="custom-select" tabindex="0" role="listbox" aria-label="Topic" (click)="toggleSelect()" (blur)="closeSelect()">
+                        <div class="custom-select__selected" [class.open]="selectOpen">
+                            {{ selectedTopicLabel || 'Topic' }}
+                            <span class="custom-select__arrow"></span>
+                        </div>
+                        <ul class="custom-select__options" *ngIf="selectOpen">
+                            <li *ngFor="let opt of topicOptions" [attr.data-value]="opt.value"
+                                [class.selected]="opt.value === selectedTopic" (click)="$event.stopPropagation(); selectTopic(opt)">{{ opt.label
+                                }}</li>
+                        </ul>
+                        <input type="hidden" name="topic" [value]="selectedTopic">
+                    </div>
+                </label>
+
+                <label class="contact__field">
+                    <span class="contact__label-text sr-only">Full name</span>
+                    <input type="text" name="name" placeholder="Full name">
+                </label>
+
+                <label class="contact__field">
+                    <span class="contact__label-text sr-only">Email</span>
+                    <input type="email" name="email" placeholder="Email">
+                </label>
+
+                <label class="contact__field contact__field--textarea">
+                    <span class="contact__label-text sr-only">Your message</span>
+                    <textarea name="message" rows="5" placeholder="Your message"></textarea>
+                </label>
+
+                <label class="contact__accept">
+                    <input type="checkbox" name="privacy">
+                    <span>I accept the privacy policy</span>
+                </label>
+
+                <app-button type="submit" variant="gold" size="medium" [fullWidth]="false">Send</app-button>
+            </form>
+        </div>
+
+        <!-- Etiqueta vertical -->
+        <div class="contact__side-label">
+            Contact
+        </div>
+    </div>
 </section>

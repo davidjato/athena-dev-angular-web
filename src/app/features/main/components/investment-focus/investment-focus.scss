@@ -1,0 +1,67 @@
+:root {
+  --bg-dark: #1B1B1B;
+  --navy: #001B31;
+  --pill-border: #4E5A66;
+  --ink: #F5F2ED;
+  --gold: #B9944F;
+}
+
+.criteria {
+  background: var(--bg-dark);
+  color: var(--ink);
+  padding: 0;
+  padding-bottom: 7rem;
+  min-height: auto;
+}
+
+.criteria__wrap {
+
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.criteria__header {
+  margin-bottom: 1.3rem;
+}
+
+.criteria__title {
+  font-family: 'Inria Serif', serif !important;
+  color: var(--gold-2);
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+  margin: 0;
+}
+
+/* Píldoras */
+.criteria__list {
+  display: grid;
+  gap: .8rem;
+}
+
+.criteria__pill {
+  background: var(--bluenavy-3);
+  border-radius: 0.5rem;
+  border: 1px solid var(--gold-1);
+  padding: .7rem 1.8rem;
+  font-size: .95rem;
+  text-align: center;
+  line-height: 1.5;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, .45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover opcional */
+.criteria__pill:hover {
+  border-color: var(--gold);
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, .6);
+  transition: all .16s ease-out;
+}
+
+/* Responsive */
+@media (max-width:720px) {
+  .criteria__pill {
+    border-radius: 0.5rem;
+  }
+}

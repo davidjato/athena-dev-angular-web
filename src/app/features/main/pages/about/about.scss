@@ -1,0 +1,204 @@
+#about {
+    padding: 3rem 1.25rem;
+    background: var(--bluenavy-4);
+}
+
+.section-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+    position: relative;
+    z-index: 1;
+}
+
+/* Header */
+.services-header {
+    text-align: center;
+    margin-bottom: 3.25rem;
+}
+
+.services-title {
+    font-family: 'Inria Serif', serif !important;
+    font-weight: 600;
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    margin: 0 0 .25rem;
+    color: var(--white);
+}
+
+.services-underline {
+    display: inline-block;
+    height: 4px;
+    width: 280px;
+    background: var(--gold-1);
+    border-radius: 0.5rem;
+    margin: .25rem auto 1rem;
+}
+
+.services-values {
+    display: flex;
+    gap: clamp(1rem, 6vw, 4rem);
+    justify-content: center;
+    font-size: .95rem;
+    letter-spacing: .12em;
+    color: var(--gold-1);
+    text-transform: uppercase;
+}
+
+/* Figuras laterales: misma imagen recortada en mitades */
+.athena-side {
+    position: absolute;
+    top: 8rem;
+    /* baja un poco para no tapar el título */
+    bottom: 0;
+    width: min(30vw, 360px);
+    /* ancho aproximado de cada figura */
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+    /* recorta la imagen */
+}
+
+.athena-left {
+    left: 0;
+}
+
+.athena-right {
+    right: 0;
+}
+
+.athena-figure {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    filter: none;
+    transform-origin: center;
+}
+
+/* En el lado izquierdo mostramos la MITAD DERECHA de la imagen */
+.athena-figure-right-half {
+    left: 0;
+    transform: translateX(-50%);
+}
+
+/* En el lado derecho mostramos la MITAD IZQUIERDA */
+.athena-figure-left-half {
+    right: 0;
+    transform: translateX(50%);
+}
+
+/* Grid */
+.services-grid {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: clamp(1rem, 3vw, 2rem);
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+
+/* Paneles */
+.panel {
+    border-radius: 0.5rem;
+    padding: 1.75rem 1.75rem 1.25rem;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .25);
+    border: 1px solid var(--gold-1);
+    width: 30%;
+    min-width: 480px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.9;
+}
+
+.panel-dark {
+    background: var(--bluenavy-3);
+    color: var(--white);
+    border: 1px solid var(--gold-1);
+}
+
+.panel-dark .panel-title {
+    color: var(--gold-1);
+}
+
+.panel-cream {
+    background: var(--gold-3);
+    color: var(--bluenavy-0);
+    border: 1px solid var(--gold-1);
+}
+
+.panel-title {
+    font-family: 'Inria Serif', serif !important;
+    font-size: 1.4rem;
+    margin: 0 0 .75rem;
+    color: inherit;
+    text-align: center;
+}
+
+.panel-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.panel-text {
+    flex-grow: 1;
+    padding-bottom: 2rem;
+}
+
+.panel-content p {
+    margin: 0 0 .9rem;
+}
+
+.panel-content ul {
+    margin: .25rem 0 1rem 1.2rem;
+}
+
+.panel-content app-button {
+    margin-top: auto;
+}
+
+.panel-content li {
+    margin: .35rem 0;
+}
+
+/* Botón */
+.btn-cta {
+    display: inline-block;
+    background: rgba(255, 255, 255, .14);
+    color: inherit;
+    text-decoration: none;
+    padding: .6rem 1.4rem;
+    border-radius: 999px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.panel-cream .btn-cta {
+    background: #DFD9CB;
+    /* leve contraste sobre crema */
+    border-color: rgba(0, 0, 0, .1);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .athena-side {
+        width: 26vw;
+    }
+}
+
+@media (max-width: 860px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .athena-side {
+        display: none;
+    }
+
+    /* ocultamos figuras para dejar respirar el contenido */
+    .section-services {
+        padding-top: 4.5rem;
+    }
+}

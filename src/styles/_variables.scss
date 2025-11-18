@@ -1,0 +1,38 @@
+// Azules / Navy
+$bluenavy-0: #00162E; // más oscuro, casi negro-azul
+$bluenavy-1: #112839;
+$bluenavy-2: #001B31;
+$bluenavy-3: #22394B;
+$bluenavy-4: #526370;
+$blue-slate: #2C4050; // intermedio útil para bordes/hover
+
+// Dorados / Acento
+$gold-1: #B9944F; // dorado principal del logo/CTA
+$gold-2: #D4BD97; // dorado claro real de los highlights
+$gold-3: #EDEAE5; // tinte muy claro/ivory cálido para backgrounds suaves
+
+// Neutros y divisor
+$white: #F5F2ED; // texto principal claro
+$divider: #3A242B; // línea vertical a la izquierda, vino-marrón
+$blue-gray: #424E51; // gris azulado del fondo del logo
+
+// CSS Variables (para uso en componentes)
+:root {
+    // Azules / Navy
+    --bluenavy-0: #{$bluenavy-0};
+    --bluenavy-1: #{$bluenavy-1};
+    --bluenavy-2: #{$bluenavy-2};
+    --bluenavy-3: #{$bluenavy-3};
+    --bluenavy-4: #{$bluenavy-4};
+    --blue-slate: #{$blue-slate};
+
+    // Dorados / Acento
+    --gold-1: #{$gold-1};
+    --gold-2: #{$gold-2};
+    --gold-3: #{$gold-3};
+
+    // Neutros y divisor
+    --white: #{$white};
+    --divider: #{$divider};
+    --blue-gray: #{$blue-gray};
+}

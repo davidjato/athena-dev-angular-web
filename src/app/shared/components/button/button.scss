@@ -1,0 +1,111 @@
+@import '../../../../styles/variables';
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.5rem;
+    min-width: 10rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-family: inherit;
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    &:focus {
+        outline: 2px solid var(--gold-2);
+        outline-offset: 2px;
+    }
+}
+
+// Variants
+.btn-primary {
+    background: var(--gold-1);
+    color: var(--white);
+
+    &:hover:not(:disabled) {
+        background: var(--gold-2);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(185, 148, 79, 0.3);
+    }
+
+    &:active:not(:disabled) {
+        transform: translateY(0);
+    }
+}
+
+.btn-secondary {
+    background: var(--bluenavy-3);
+    color: var(--white);
+
+    &:hover:not(:disabled) {
+        background: var(--bluenavy-4);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(34, 57, 75, 0.3);
+    }
+
+    &:active:not(:disabled) {
+        transform: translateY(0);
+    }
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--gold-1);
+    border: 2px solid var(--gold-1);
+
+    &:hover:not(:disabled) {
+        background: var(--gold-1);
+        color: var(--bluenavy-0);
+        transform: translateY(-2px);
+    }
+
+    &:active:not(:disabled) {
+        transform: translateY(0);
+    }
+}
+
+.btn-gold {
+    background: var(--gold-1);
+    color: var(--white);
+
+    &:hover:not(:disabled) {
+        background: var(--gold-2);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(185, 148, 79, 0.3);
+    }
+
+    &:active:not(:disabled) {
+        transform: translateY(0);
+    }
+}
+
+// Sizes
+.btn-small {
+    padding: 8px 16px;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+}
+
+.btn-medium {
+    padding: 10px 18px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+.btn-large {
+    padding: 14px 28px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+// Full width
+.btn-full-width {
+    width: 100%;
+}

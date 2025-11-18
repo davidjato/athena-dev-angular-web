@@ -1,0 +1,130 @@
+:root {
+    --bg-dark: #1B1B1B;
+    --navy: #001B31;
+    --navy-light: #002B4A;
+    --ink: #F5F2ED;
+    --gold: #B9944F;
+    --muted: #D8D6D2;
+}
+
+.why {
+    background: var(--bg-dark);
+    color: var(--ink);
+    padding: 4rem 0 4rem;
+    position: relative;
+    min-height: auto;
+}
+
+.why__wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+    position: relative;
+}
+
+/* Header arriba a la derecha */
+.why__header {
+    text-align: right;
+    margin-bottom: 4rem;
+}
+
+.why__title {
+    color: var(--gold-1);
+    font-family: 'Inria Serif', serif !important;
+    font-weight: 600;
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    margin: 0;
+}
+
+.why__subtitle {
+    margin: .25rem 0 0;
+    color: var(--ink);
+    opacity: .9;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+/* Grid de cajas */
+.why__grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, minmax(250px, auto));
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.why__item:nth-child(4) {
+    grid-column: 2 / 3;
+}
+
+.why__item {
+    background: var(--navy);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color .3s ease;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+
+}
+
+.why__item:hover,
+.why__item:focus {
+    background: var(--bluenavy-0);
+}
+
+.why__item-title {
+    color: var(--gold-2);
+    font-size: clamp(1rem, 1.6vw, 1.15rem);
+    letter-spacing: .02em;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.why__item-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: .5rem;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height .4s ease, opacity .3s ease;
+}
+
+.why__item:hover .why__item-details,
+.why__item:focus .why__item-details {
+    max-height: 300px;
+    opacity: 1;
+}
+
+.why__item-details li {
+    color: var(--muted);
+    font-size: .92rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.why__item-details li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+}
+
+/* Responsive */
+@media (max-width:820px) {
+    .why__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why__header {
+        text-align: left;
+    }
+}

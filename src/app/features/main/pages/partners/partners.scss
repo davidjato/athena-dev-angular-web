@@ -1,0 +1,209 @@
+.partners {
+    background: var(--navy);
+    color: var(--ink);
+    position: relative;
+    overflow: hidden;
+    padding: 6.5rem 0 3rem;
+}
+
+.partners__wrap {
+    margin: 0 auto;
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 80px 1.1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    overflow: hidden;
+    position: relative;
+    min-height: 850px;
+}
+
+/* Etiqueta vertical */
+.partners__label {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: 'Inria Serif', serif !important;
+    font-size: clamp(1.8rem, 2.6vw, 2.4rem);
+    opacity: .9;
+    letter-spacing: .04em;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin-left: -40px;
+    height: 0;
+    width: clamp(1.8rem, 2.6vw, 2.4rem);
+}
+
+/* Info */
+.partners__info {
+    padding-right: 1rem;
+    padding-top: 8rem;
+    position: relative;
+    z-index: 3;
+    min-height: 650px;
+}
+
+.partners__name {
+    font-family: 'Inria Serif', serif !important;
+    font-size: clamp(2rem, 3.8vw, 3rem);
+    margin: 0 0 .25rem;
+    color: var(--gold-1);
+    padding-left: 0;
+    margin-left: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.partners__role {
+    font-family: 'Inria Serif', serif !important;
+    color: var(--gold-2);
+    font-weight: 600;
+    font-size: clamp(1.3rem, 2vw, 1.6rem);
+    margin: .1rem 0 1.1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.partners__bullets {
+    display: grid;
+    gap: .9rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 60ch;
+    padding-left: 0;
+    margin-left: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.partners__bullets li {
+    list-style: none;
+    position: relative;
+    padding-left: 0.6rem;
+}
+
+.partners__bullets li::before {
+    content: "·";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--ink);
+}
+
+/* Stage (carrusel con "profundidad") */
+.partners__stage {
+    position: absolute;
+    top: 0;
+    right: -5%;
+    width: calc((100% / 2.1) - 2rem);
+    height: 850px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2rem;
+    justify-content: center;
+    overflow: visible;
+    perspective: 1200px;
+    perspective-origin: center center;
+    transform-style: preserve-3d;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.partners__stage>* {
+    pointer-events: auto;
+}
+
+.partners__slide {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform-origin: center top;
+    margin-left: -300px;
+    margin-top: 0;
+    object-fit: contain;
+    width: 600px;
+    height: 800px;
+    transition: transform .8s cubic-bezier(.2, .8, .2, 1),
+        filter .7s ease;
+    pointer-events: none;
+    will-change: transform;
+}
+
+.partners__slide.is-active {
+    pointer-events: auto;
+}
+
+/* Thumbs */
+.partners__thumbs {
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.partners__thumb {
+    width: 92px;
+    height: 92px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: #0f2433;
+    outline: 1px solid rgba(255, 255, 255, .15);
+    transition: transform .3s ease, outline-color .3s ease, filter .3s ease;
+    filter: brightness(0.5) grayscale(0.6);
+}
+
+.partners__thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.partners__thumb:hover {
+    transform: translateY(-4px) scale(1.05);
+    filter: brightness(0.7) grayscale(0.3);
+}
+
+.partners__thumb.is-active {
+    outline: 2px solid var(--gold);
+    filter: brightness(1) grayscale(0);
+    transform: scale(1.08);
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+    .partners__wrap {
+        grid-template-columns: 40px 1fr;
+    }
+
+    .partners__stage {
+        grid-column: 1 / -1;
+        height: 440px;
+    }
+
+    .partners__label {
+        grid-row: 1 / span 2;
+    }
+}
+
+@media (max-width: 780px) {
+    .partners__wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .partners__label {
+        display: none;
+    }
+
+    .partners__stage {
+        order: -1;
+        height: 360px;
+    }
+}
