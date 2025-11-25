@@ -8,7 +8,7 @@
     <div class="contact__panel">
         <div class="contact__panel-inner">
             <header class="contact__header">
-                <h2 class="contact__title">Always here for you</h2>
+                <h2 class="contact__title">{{ 'contact.title' | translate }}</h2>
 
                 <div class="contact__social">
                     <a href="#" aria-label="Facebook">
@@ -28,42 +28,45 @@
 
             <form class="contact__form">
                 <label class="contact__field">
-                    <span class="contact__label-text sr-only">Topic</span>
-                    <div class="custom-select" tabindex="0" role="listbox" aria-label="Topic" (click)="toggleSelect()" (blur)="closeSelect()">
+                    <span class="contact__label-text sr-only">{{ 'contact.topic' | translate }}</span>
+                    <div class="custom-select" tabindex="0" role="listbox"
+                        aria-label="{{ 'contact.topic' | translate }}" (click)="toggleSelect()" (blur)="closeSelect()">
                         <div class="custom-select__selected" [class.open]="selectOpen">
-                            {{ selectedTopicLabel || 'Topic' }}
+                            {{ selectedTopicLabel || ('contact.topic' | translate) }}
                             <span class="custom-select__arrow"></span>
                         </div>
                         <ul class="custom-select__options" *ngIf="selectOpen">
                             <li *ngFor="let opt of topicOptions" [attr.data-value]="opt.value"
-                                [class.selected]="opt.value === selectedTopic" (click)="$event.stopPropagation(); selectTopic(opt)">{{ opt.label
-                                }}</li>
+                                [class.selected]="opt.value === selectedTopic"
+                                (click)="$event.stopPropagation(); selectTopic(opt)">{{ ('contact.topics.' + opt.value)
+                                | translate }}</li>
                         </ul>
                         <input type="hidden" name="topic" [value]="selectedTopic">
                     </div>
                 </label>
 
                 <label class="contact__field">
-                    <span class="contact__label-text sr-only">Full name</span>
-                    <input type="text" name="name" placeholder="Full name">
+                    <span class="contact__label-text sr-only">{{ 'contact.fullname' | translate }}</span>
+                    <input type="text" name="name" [placeholder]="'contact.fullname' | translate">
                 </label>
 
                 <label class="contact__field">
-                    <span class="contact__label-text sr-only">Email</span>
-                    <input type="email" name="email" placeholder="Email">
+                    <span class="contact__label-text sr-only">{{ 'contact.email' | translate }}</span>
+                    <input type="email" name="email" [placeholder]="'contact.email' | translate">
                 </label>
 
                 <label class="contact__field contact__field--textarea">
-                    <span class="contact__label-text sr-only">Your message</span>
-                    <textarea name="message" rows="5" placeholder="Your message"></textarea>
+                    <span class="contact__label-text sr-only">{{ 'contact.message' | translate }}</span>
+                    <textarea name="message" rows="5" [placeholder]="'contact.message' | translate"></textarea>
                 </label>
 
                 <label class="contact__accept">
                     <input type="checkbox" name="privacy">
-                    <span>I accept the privacy policy</span>
+                    <span>{{ 'contact.privacy' | translate }}</span>
                 </label>
 
-                <app-button type="submit" variant="gold" size="medium" [fullWidth]="false">Send</app-button>
+                <app-button type="submit" variant="gold" size="medium" [fullWidth]="false">{{ 'contact.send' | translate
+                    }}</app-button>
             </form>
         </div>
 

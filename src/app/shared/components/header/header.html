@@ -7,14 +7,24 @@
     <span class="divider" aria-hidden="true"></span>
 
     <nav class="main-nav" aria-label="Primary">
-      <a href="#home" (click)="scrollToSection($event, 'home')">Home</a>
-      <a href="#offer" (click)="scrollToSection($event, 'about')">What we offer</a>
-      <a href="#partners" (click)="scrollToSection($event, 'partners')">Our partners</a>
-      <a href="#about" (click)="scrollToSection($event, 'offer')">About us</a>
+      <a href="#home" (click)="scrollToSection($event, 'home')">{{ 'header.home' | translate }}</a>
+      <a href="#offer" (click)="scrollToSection($event, 'about')">{{ 'header.offer' | translate }}</a>
+      <a href="#partners" (click)="scrollToSection($event, 'partners')">{{ 'header.partners' | translate }}</a>
+      <a href="#about" (click)="scrollToSection($event, 'offer')">{{ 'header.about' | translate }}</a>
     </nav>
 
     <app-button class="cta-button" (clicked)="scrollToSection($event, 'contact')">
-      Contact us
+      {{ 'header.contact' | translate }}
     </app-button>
+
+    <div class="lang-select">
+      <label for="lang" class="visually-hidden">{{ 'header.language' | translate }}</label>
+      <select id="lang" [(ngModel)]="selectedLang" (change)="changeLang($event)">
+        <option value="en">EN</option>
+        <option value="es">ES</option>
+        <option value="fr">FR</option>
+        <option value="lb">LB</option>
+      </select>
+    </div>
   </div>
 </header>

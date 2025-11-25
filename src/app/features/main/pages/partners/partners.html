@@ -1,18 +1,18 @@
 <section id="partners">
     <div class="partners__wrap">
         <!-- Etiqueta vertical izquierda -->
-        <div class="partners__label" aria-hidden="true">Partners</div>
+        <div class="partners__label" aria-hidden="true">{{ 'partners.label' | translate }}</div>
 
         <!-- Texto -->
         <div class="partners__info" aria-live="polite">
-            <h2 class="partners__name">{{ currentPartner.name }}</h2>
-            <h3 class="partners__role">{{ currentPartner.role }}</h3>
+            <h2 class="partners__name">{{ currentPartner.name | translate }}</h2>
+            <h3 class="partners__role">{{ currentPartner.role | translate }}</h3>
             <ul class="partners__bullets">
-                <li *ngFor="let bullet of currentPartner.bullets">{{ bullet }}</li>
+                <li *ngFor="let bullet of currentPartner.bullets">{{ bullet | translate }}</li>
             </ul>
 
             <!-- Thumbnails -->
-            <div class="partners__thumbs" role="tablist" aria-label="Select partner">
+            <div class="partners__thumbs" role="tablist" aria-label="{{ 'partners.select' | translate }}">
                 <button *ngFor="let partner of partners; let i = index" class="partners__thumb"
                     [class.is-active]="isActive(i)" role="tab" [attr.aria-selected]="isActive(i)"
                     (click)="selectPartner(i)">
@@ -22,7 +22,7 @@
         </div>
 
         <!-- Escenario 3D (profundidad) -->
-        <div class="partners__stage" role="region" aria-label="Partners gallery">
+        <div class="partners__stage" role="region" aria-label="{{ 'partners.gallery' | translate }}">
             <!-- Slides (mismas dimensiones, superpuestos) -->
             <img *ngFor="let partner of partners; let i = index" class="partners__slide" [class.is-active]="isActive(i)"
                 [ngStyle]="getSlideStyle(i)" [src]="partner.image" [alt]="'Bust of ' + partner.name" />

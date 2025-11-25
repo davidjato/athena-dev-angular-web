@@ -1,0 +1,235 @@
+{
+    "home": {
+        "title": "Athena Allied SA",
+        "values": {
+            "wisdom": "Wäisheet",
+            "strength": "Kraaft",
+            "intelligence": "Intelligenz"
+        }
+    },
+    "opinions": {
+        "title": "Firwat Athena?",
+        "subtitle": "Eis Wäerter a Stäerkten",
+        "item1": {
+            "title": "Expertenteam",
+            "detail1": "Joerzéngte laang Erfarung",
+            "detail2": "Globalt Netzwierk"
+        },
+        "item2": {
+            "title": "Strategesch Visioun",
+            "detail1": "Transatlantesche Fokus",
+            "detail2": "Dual-Use Technologie",
+            "detail3": "Wuesstumsmentalitéit"
+        },
+        "item3": {
+            "title": "Resultater",
+            "detail1": "Erfollegräich Investitiounen",
+            "detail2": "Laangfristegen Impakt"
+        },
+        "item4": {
+            "title": "Vertrauen",
+            "detail1": "Zouverlässegkeet",
+            "detail2": "Engagement"
+        }
+    },
+    "header": {
+        "home": "Haaptsäit",
+        "offer": "Offer",
+        "partners": "Partneren",
+        "about": "Iwwer eis",
+        "contact": "Kontakt",
+        "language": "Sprooch"
+    },
+    "contact": {
+        "title": "Ëmmer fir Iech do",
+        "topic": "Thema",
+        "topics": {
+            "investment": "Investitioun",
+            "partnerships": "Partnerschaften",
+            "careers": "Karrièren",
+            "other": "Aner"
+        },
+        "fullname": "Vollständegen Numm",
+        "email": "E-Mail",
+        "message": "Äre Message",
+        "privacy": "Ech akzeptéieren d'Privatsphär Politik",
+        "send": "Schécken"
+    },
+    "footer": {
+        "address": "75–51 Grand-Rue, 1661 Ville-Haute Luxembourg, Lëtzebuerg",
+        "athena": "Athena",
+        "services": "Servicer",
+        "partners": "Partneren",
+        "contact": "Kontakt"
+    },
+    "missionSteps": {
+        "title": "D'Schrëtt vun eiser Missioun",
+        "card1": {
+            "title": "100M Fong zu Lëtzebuerg",
+            "desc": "Erfuerenen Berodungsteam bréngt US-, europäesch an alléiert Kapital fir europäesch Firmen z'investéieren an ze wuessen."
+        },
+        "card2": {
+            "title": "Zil",
+            "desc": "Opbau vun engem diversifizéierten, rentabelen Portfolio vu direkten Minoritéitsinvestitiounen an europäesch Dual-Use an Verteidegungskapazitéiten. Europäesch Verteidegungsindustrie wuessen."
+        },
+        "card3": {
+            "title": "Integréiert",
+            "desc": "Gemanagt vun Antwert Capital an der existéierender, gutt gefouert Struktur vu Fongen."
+        },
+        "card4": {
+            "title": "Laangfristege geschlossene Fong",
+            "desc": "8+1+1 Joer Struktur fir de Verkafscycle an d'Verdeedegungsdeployement-Zäiten unzepassen."
+        },
+        "card5": {
+            "title": "Timing an Gréisst",
+            "desc": "Serie A–D. Den europäesche Verdeedungsmaart ass reif fir Disruptioun tëscht ganz fréi Startups an de grousse OEMs."
+        }
+    },
+    "about": {
+        "title": "Athena Allied SA",
+        "values": {
+            "label": "Kärwäerter",
+            "wisdom": "Wäisheet",
+            "strength": "Kraaft",
+            "intelligence": "Intelligenz"
+        },
+        "panel1": {
+            "title": "Verteidegungsfong",
+            "p1": "Mir déngen als Investitiounsberoder fir den Athena Allied Defense Fund, e Lëtzebuerger Fong fir Verteidegung a Sécherheet, deen US- an europäesch Investisseuren zesummebréngt fir Startups an kleng bis mëttelgrouss Entreprisen an NATO-Länner an Europa z'ënnerstëtzen.",
+            "p2": "D'Grënnungspartner vun dësem Investitiounsberoder bréngen Joerzéngte laang Erfarung am ëffentlechen an privaten Secteur an de Beräicher Verteidegung, Sécherheet a Aussepolitik. Eis Expertise an der Verteidegungspolitik, Beschaffungsmechanismen, evoluéierend Ufuerderunge fir d'Kämpfer, Finanzéierung an Investitioun an der Verteidegungsindustrie, souwéi eis extensiv Netzwierk vu Leaderen an der Industrie, Startup-Ökosystemer an Verteidegungspolitik Beamten an den USA an Europa bidden wäertvoll Abléck an d'Zukunft vun den europäesche Verteidegungsufuerderungen an Ausgaben."
+        },
+        "panel2": {
+            "title": "Berodungsservicer",
+            "p1": "Mir beroden etabléiert an reife US- an europäesch Verteidegungs- a Sécherheetsfirmen, déi no Wuesstums- an Expansiounsméiglechkeeten an NATO-Länner sichen.",
+            "li1": "Mir identifizéieren Wuesstumschancen duerch Partnerschaften a Kollaboratioun tëscht europäesche Firmen an tëscht den USA an Europa.",
+            "li2": "Mir setzen eis Expertise an NATO- an europäesche Beschaffungsufuerderungen a Prozesser an fir Firmen ze hëllefen erfollegräich op Regierungsofferen ze bieden.",
+            "li3": "Mir facilitéieren an exekutéieren transatlantesch Ofkommes a Kontrakter, déi US- an europäesch Firmen zesummebréngen fir den wuessenden Verteidegungsbedarf vun der NATO ze erfëllen.",
+            "li4": "Mir sinn déi richteg Léisung fir US- an europäesch Firmen, déi vun den enormen Opportunitéiten profitéiere wëllen, déi duerch déi nei Verteidegungsausgabefuerderungen, op déi europäesch Länner an der NATO sech geeënegt hunn, verfügbar ginn."
+        },
+        "contact": "Kontakt"
+    },
+    "offer": {
+        "title": "Eis Offer",
+        "subtitle": "Investitioun a Wuesstum fir europäesch Verdeedegung",
+        "sections": "Offer Sektiounen",
+        "mission": {
+            "title": "Missioun",
+            "text": "Eis Missioun ass europäesch Verdeedegungsinnovatioun duerch strategesch Investitioun a Partnerschaften z'ënnerstëtzen."
+        },
+        "opportunity": {
+            "title": "Geleeënheet",
+            "text": "Eenzegaarteg Maartgeleeënheeten an der Verdeedegung an Dual-Use Technologien.",
+            "subtitle": "Schlëssel Secteuren",
+            "desc": "Innovatioun, Dual-Use Technologie an nei Méiglechkeeten an der europäescher Verdeedegung.",
+            "metrics": {
+                "irr": "Internen Rendementsrate",
+                "horizon": "Horizont",
+                "exits": "Exits",
+                "trust": "Vertrauen",
+                "title1": "Maartgréisst",
+                "title2": "Wuesstumsrate",
+                "title3": "Investitiounsvolumen",
+                "title4": "Schlëssel Akteuren",
+                "spend": "Ausgaben",
+                "nato": "NATO",
+                "capital": "Kapital",
+                "cagr": "CAGR",
+                "expansion": "Expansioun",
+                "innovation": "Innovatioun",
+                "growth": "Wuesstum"
+            }
+        },
+        "stakeholders": {
+            "ecosystem": {
+                "title1": "Europäeschen Verdeedegungsfinanzéierungs-Ökosystem",
+                "card1": "€800 Mrd EU SAFE & REARM Programmer",
+                "card2": "€50 Mrd Soft Loans (60 Joer – 10 Joer Gnod)",
+                "card3": "NATO NIF an DIANA, EU EIC fir nei Technologien",
+                "card4": "National Fongen & Investitiounen ugekënnegt an Europa an UK",
+                "card5": "OEM Ventures expandéieren op Europa",
+                "title2": "Bedierfnesser vum Verdeedegungskapital an Europa erfëllen",
+                "pill1": "Bestoend europäescht Regulatiounsklima",
+                "pill2": "Reell Pipeline vu kontraktéierte Programmer an eisem Netzwierk",
+                "pill3": "Eis Expertise an militärischer a ziviller Beschaffung",
+                "pill4": "Kapitalflaschenhals an Serie A–C fir séier Skaléierung ugoen",
+                "pill5": "Verbindend Elementer: Kapital, militäresch a politesch Ënnerstëtzung",
+                "pill6": "Expertise an Cybersécherheet, Regulatioun, Export- a Handelskontrollen"
+            },
+            "title": "Stakeholderen",
+            "text": "Zesummenaarbecht mat wichtege Stakeholderen an Europa an der NATO.",
+            "subtitle": "Haaptpartner",
+            "desc": "Strategesch Partnerschaften mat féierenden Institutiounen a Firmen."
+        },
+        "focus": {
+            "title": "Fokus",
+            "text": "Fokus op skalierbar, innovativ Firmen mat bewissem Leadership.",
+            "subtitle": "Eise Fokus",
+            "desc": "Mir ënnerstëtzen Firmen mat Wuesstumspotenzial a Leadership am Secteur.",
+            "pill1": "Mëttelgrouss Firmen mat bewissem Geschäftsmodell, erfuerene a fäegem Leadership-Team, héicht Wuesstumspotenzial op mëttel Frist.",
+            "pill2": "Minimum zwee Joer Erfahrung an minimum EBITDA vun €5M.",
+            "pill3": "Ënnerstëtzung fir séiert Wuesstum an Expansioun fir Fuerschung an Produktentwécklung, Verkaf an Liwwerfäegkeet skaléieren, Produktioun ausbauen, Maart entwéckelen."
+        },
+        "structure": {
+            "title": "Struktur",
+            "text": "Investitiounsstruktur fir Wuesstum an Impakt.",
+            "subtitle": "Investitiounsstruktur",
+            "desc": "Flexibelt Modell ugepasst un d'Bedierfnesser vum Verdeedegungssecteur.",
+            "card1": {
+                "title": "NATO",
+                "desc": "Mir kennen de Budget, d'Planung an d'operativ Zyklen vun der NATO an de Memberstaaten, hir kritesch Bedierfnesser a Ufuerderungen, a wou d'Verdeedegungsausgaben fokusséiert ginn."
+            },
+            "card2": {
+                "title": "Startups",
+                "desc": "Mir notzen eis Erfahrung a Relatiounen an de Memberstaaten an der NATO fir eis op Firmen ze fokusséieren, déi dës kritesch Bedierfnesser ugoen. Eis Erfahrung mat Startups erlaabt eis ze bewäerten, wéi eng Geschäfter d'Technologie, Leadership an Visioun hunn, fir ze wuessen an rentabel Gewënner ze ginn."
+            },
+            "card3": {
+                "title": "Incumbents",
+                "desc": "Vill Akteuren wëllen déi exigentste Verdeedegungs- a Sécherheetsbedierfnesser erfëllen, awer nëmmen e puer kënnen dat wierklech maachen. Eis laangjäreg Relatiounen mat OEMs wäerten kritesch kommerziell a strategesch Méiglechkeeten fir eist Portfolio opmaachen."
+            },
+            "card4": {
+                "title": "Technologie",
+                "desc": "Hei geet et ëm méi wéi nëmmen besser Dronen ze bauen: et geet ëm Informatioun am grousse Stil. Erfolleg an ëmstriddene Beräicher entsteet un den Ecker, bei Sensorik, Netzwierker, séchere Verbindungen, Cybersécherheet, KI an dem RF-Spektrum."
+            }
+        }
+    },
+    "partners": {
+        "label": "Partneren",
+        "select": "Partner auswielen",
+        "gallery": "Partner Galerie",
+        "emilio": {
+            "name": "Emilio de la Guardia",
+            "role": "Generell Partner",
+            "bullets": [
+                "Féierung am Venture Capital, Private Equity, M&A, a strukturéiert Prêten",
+                "Senior Exekutiv bei der Europäescher Investitiounsbank, gefouert Multi-Länner Operatiounen a Finanzéierung fir grouss Verdeedegung, Aviatioun, a Raumfaart Programmer (Airbus, Airane Start, Safran)",
+                "Private Equity Investisseur, Grënner, a Board Beroder fir verschidde Startups am Aerospace Beräich",
+                "Industrie Wuesstum iwwer Grenzen, Dual-Use Technologie Finanzéierung, an transatlantesch Investitiounsstrategie"
+            ]
+        },
+        "sofia": {
+            "name": "Sofia Keller",
+            "role": "Partnerin",
+            "bullets": [
+                "Expertin fir Verteidegungsbeschaffung",
+                "Gefouert EU NATO Ausschreiwungsprogrammer",
+                "Ehemalegen COO bei Dual-Use Tech Scaleup"
+            ]
+        },
+        "ana": {
+            "name": "Ana Moreau",
+            "role": "Venture Partnerin",
+            "bullets": [
+                "Aerospace Investisseurin, ex-Airbus",
+                "Transatlantesch JV Strukturéierung"
+            ]
+        },
+        "roland": {
+            "name": "Roland Weber",
+            "role": "Operativen Partner",
+            "bullets": [
+                "Industrie M&A an Carve-Outs",
+                "Iwwer 30 Joer an der Verteidegungsproduktioun"
+            ]
+        }
+    }
+}

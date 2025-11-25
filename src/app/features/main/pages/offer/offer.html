@@ -4,20 +4,20 @@
             <div class="about__layout">
                 <!-- Header -->
                 <header class="about__header">
-                    <h2 class="about__title">About us</h2>
-                    <p class="about__subtitle">Discover our investment approach</p>
+                    <h2 class="about__title">{{ 'offer.title' | translate }}</h2>
+                    <p class="about__subtitle">{{ 'offer.subtitle' | translate }}</p>
                 </header>
 
                 <!-- Timeline / menú vertical -->
-                <nav class="about__nav" aria-label="Offer sections">
+                <nav class="about__nav" aria-label="{{ 'offer.sections' | translate }}">
                     <button class="about__nav-item" [class.is-active]="activeSection === 'mission'"
                         (click)="setActiveSection('mission')" data-key="mission">
                         <span class="about__dot"></span>
                         <div class="about__nav-content">
-                            <span class="about__nav-label">Mission</span>
+                            <span class="about__nav-label">{{ 'offer.mission.title' | translate }}</span>
                             @if (activeSection === 'mission') {
                             <p class="about__nav-description">
-                                {{ sections['mission'].text }}
+                                {{ 'offer.mission.text' | translate }}
                             </p>
                             }
                         </div>
@@ -27,10 +27,11 @@
                         (click)="setActiveSection('opportunity')" data-key="opportunity">
                         <span class="about__dot"></span>
                         <div class="about__nav-content">
-                            <span class="about__nav-label">Opportunity</span>
+                            <span class="about__nav-label">{{ 'offer.opportunity.title' | translate }}</span>
                             @if (activeSection === 'opportunity') {
                             <p class="about__nav-description">
-                                {{ sections['opportunity'].text }}
+                                <strong>{{ 'offer.opportunity.subtitle' | translate }}</strong><br>
+                                {{ 'offer.opportunity.desc' | translate }}
                             </p>
                             }
                         </div>
@@ -40,10 +41,11 @@
                         (click)="setActiveSection('stakeholders')" data-key="stakeholders">
                         <span class="about__dot"></span>
                         <div class="about__nav-content">
-                            <span class="about__nav-label">Core Stakeholders</span>
+                            <span class="about__nav-label">{{ 'offer.stakeholders.title' | translate }}</span>
                             @if (activeSection === 'stakeholders') {
                             <p class="about__nav-description">
-                                {{ sections['stakeholders'].text }}
+                                <strong>{{ 'offer.stakeholders.subtitle' | translate }}</strong><br>
+                                {{ 'offer.stakeholders.desc' | translate }}
                             </p>
                             }
                         </div>
@@ -53,10 +55,11 @@
                         (click)="setActiveSection('focus')" data-key="focus">
                         <span class="about__dot"></span>
                         <div class="about__nav-content">
-                            <span class="about__nav-label">Investment Focus</span>
+                            <span class="about__nav-label">{{ 'offer.focus.title' | translate }}</span>
                             @if (activeSection === 'focus') {
                             <p class="about__nav-description">
-                                {{ sections['focus'].text }}
+                                <strong>{{ 'offer.focus.subtitle' | translate }}</strong><br>
+                                {{ 'offer.focus.desc' | translate }}
                             </p>
                             }
                         </div>
@@ -66,10 +69,11 @@
                         (click)="setActiveSection('structure')" data-key="structure">
                         <span class="about__dot"></span>
                         <div class="about__nav-content">
-                            <span class="about__nav-label">Investment Structure</span>
+                            <span class="about__nav-label">{{ 'offer.structure.title' | translate }}</span>
                             @if (activeSection === 'structure') {
                             <p class="about__nav-description">
-                                {{ sections['structure'].text }}
+                                <strong>{{ 'offer.structure.subtitle' | translate }}</strong><br>
+                                {{ 'offer.structure.desc' | translate }}
                             </p>
                             }
                         </div>

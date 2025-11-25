@@ -1,0 +1,235 @@
+{
+    "home": {
+        "title": "Athena Allied SA",
+        "values": {
+            "wisdom": "Sabiduría",
+            "strength": "Fuerza",
+            "intelligence": "Inteligencia"
+        }
+    },
+    "opinions": {
+        "title": "¿Por qué Athena?",
+        "subtitle": "Nuestros valores y fortalezas",
+        "item1": {
+            "title": "Equipo experto",
+            "detail1": "Décadas de experiencia",
+            "detail2": "Red global"
+        },
+        "item2": {
+            "title": "Visión estratégica",
+            "detail1": "Enfoque transatlántico",
+            "detail2": "Tecnología de doble uso",
+            "detail3": "Mentalidad de crecimiento"
+        },
+        "item3": {
+            "title": "Resultados",
+            "detail1": "Inversiones exitosas",
+            "detail2": "Impacto a largo plazo"
+        },
+        "item4": {
+            "title": "Confianza",
+            "detail1": "Fiabilidad",
+            "detail2": "Compromiso"
+        }
+    },
+    "header": {
+        "home": "Inicio",
+        "offer": "Oferta",
+        "partners": "Socios",
+        "about": "Acerca de",
+        "contact": "Contacto",
+        "language": "Idioma"
+    },
+    "contact": {
+        "title": "Siempre aquí para ti",
+        "topic": "Tema",
+        "topics": {
+            "investment": "Inversión",
+            "partnerships": "Colaboraciones",
+            "careers": "Carreras",
+            "other": "Otro"
+        },
+        "fullname": "Nombre completo",
+        "email": "Correo electrónico",
+        "message": "Tu mensaje",
+        "privacy": "Acepto la política de privacidad",
+        "send": "Enviar"
+    },
+    "footer": {
+        "address": "75–51 Grand-Rue, 1661 Ville-Haute Luxembourg, Luxemburgo",
+        "athena": "Athena",
+        "services": "Servicios",
+        "partners": "Socios",
+        "contact": "Contacto"
+    },
+    "missionSteps": {
+        "title": "Pasos de nuestra misión",
+        "card1": {
+            "title": "Fondo de 100M en Luxemburgo",
+            "desc": "Equipo asesor experimentado que reúne capital de EE.UU., Europa y aliados para invertir y hacer crecer empresas europeas."
+        },
+        "card2": {
+            "title": "Objetivo",
+            "desc": "Construir una cartera diversificada y rentable de inversiones minoritarias directas en capacidades europeas de doble uso y defensa. Impulsar la base industrial de defensa europea."
+        },
+        "card3": {
+            "title": "Integrado",
+            "desc": "Gestionado por Antwert Capital dentro de su estructura existente de fondos bien administrados."
+        },
+        "card4": {
+            "title": "Fondo cerrado a largo plazo",
+            "desc": "Estructura de 8+1+1 años para ajustarse al ciclo de ventas y despliegue del sector defensa."
+        },
+        "card5": {
+            "title": "Timing y tamaño",
+            "desc": "Series A–D. El mercado europeo de defensa está listo para la disrupción entre startups muy tempranas y los grandes OEMs."
+        }
+    },
+    "about": {
+        "title": "Athena Allied SA",
+        "values": {
+            "label": "Valores principales",
+            "wisdom": "Sabiduría",
+            "strength": "Fuerza",
+            "intelligence": "Inteligencia"
+        },
+        "panel1": {
+            "title": "Fondo de Defensa",
+            "p1": "Somos el asesor de inversiones de Athena Allied Defense Fund, un fondo luxemburgués de defensa y seguridad que reúne a inversores estadounidenses y europeos para apoyar startups y pymes dentro de los países de la OTAN en Europa.",
+            "p2": "Los socios fundadores de este asesor de inversiones aportan décadas de experiencia en los sectores público y privado en defensa, seguridad y política exterior. Nuestra experiencia en política de defensa, mecanismos de adquisición, requisitos cambiantes de los combatientes, financiación e inversión en la industria de defensa, así como nuestra amplia red de líderes de la industria, ecosistema de startups y funcionarios de política de defensa en EE.UU. y Europa, ofrecen una visión invaluable sobre el futuro de los requisitos y el gasto en defensa europea."
+        },
+        "panel2": {
+            "title": "Servicios de asesoría",
+            "p1": "Asesoramos a empresas de defensa y seguridad de EE.UU. y Europa que buscan oportunidades de crecimiento y expansión en países de la OTAN.",
+            "li1": "Identificamos oportunidades de crecimiento a través de alianzas y colaboración entre empresas europeas y entre EE.UU. y Europa.",
+            "li2": "Aplicamos nuestra experiencia en requisitos y procesos de adquisición de la OTAN y Europa para ayudar a las empresas a licitar con éxito en concursos gubernamentales.",
+            "li3": "Facilitamos y ejecutamos acuerdos y contratos transatlánticos que unen a empresas estadounidenses y europeas para satisfacer las crecientes necesidades de defensa de la OTAN.",
+            "li4": "Somos la solución adecuada para empresas de EE.UU. y Europa que quieren aprovechar las grandes oportunidades que ofrecen los nuevos requisitos de gasto en defensa acordados por los países europeos dentro de la OTAN."
+        },
+        "contact": "Contacto"
+    },
+    "offer": {
+        "title": "Nuestra Oferta",
+        "subtitle": "Inversión y crecimiento para la defensa europea",
+        "sections": "Secciones de la oferta",
+        "mission": {
+            "title": "Misión",
+            "text": "Nuestra misión es apoyar la innovación en defensa europea a través de la inversión estratégica y las asociaciones."
+        },
+        "opportunity": {
+            "title": "Oportunidad",
+            "text": "Oportunidades únicas de mercado en defensa y tecnologías de doble uso.",
+            "subtitle": "Sectores clave",
+            "desc": "Innovación, tecnología de doble uso y nuevas oportunidades en la defensa europea.",
+            "metrics": {
+                "irr": "Tasa interna de retorno",
+                "horizon": "Horizonte",
+                "exits": "Exits",
+                "trust": "Confianza",
+                "title1": "Tamaño de mercado",
+                "title2": "Tasa de crecimiento",
+                "title3": "Volumen de inversión",
+                "title4": "Actores clave",
+                "spend": "Gasto",
+                "nato": "NATO",
+                "capital": "Capital",
+                "cagr": "CAGR",
+                "expansion": "Expansión",
+                "innovation": "Innovación",
+                "growth": "Crecimiento"
+            }
+        },
+        "stakeholders": {
+            "ecosystem": {
+                "title1": "Ecosistema de financiación de defensa europea",
+                "card1": "€800 mil millones en programas EU SAFE & REARM",
+                "card2": "€50 mil millones en préstamos blandos (60 años – 10 de carencia)",
+                "card3": "NATO NIF y DIANA, EU EIC para tecnología emergente",
+                "card4": "Fondos e inversiones nacionales anunciados en Europa y Reino Unido",
+                "card5": "OEM ventures se expanden a Europa",
+                "title2": "Cubriendo las necesidades de capital de defensa en Europa",
+                "pill1": "Clima regulatorio europeo existente",
+                "pill2": "Pipeline real de programas contratados y nuestra red",
+                "pill3": "Nuestra experiencia en contratación militar y civil",
+                "pill4": "Abordando el cuello de botella de capital en Series A–C para escalar rápido",
+                "pill5": "Tejido conectivo: capital, apoyo militar y político",
+                "pill6": "Expertise en ciberseguridad, regulación, exportación y controles comerciales"
+            },
+            "title": "Partes interesadas",
+            "text": "Colaboración con partes clave en Europa y la OTAN.",
+            "subtitle": "Colaboradores principales",
+            "desc": "Alianzas estratégicas con instituciones y empresas líderes."
+        },
+        "focus": {
+            "title": "Enfoque",
+            "text": "Enfoque en empresas escalables e innovadoras con liderazgo probado.",
+            "subtitle": "Nuestro enfoque",
+            "desc": "Apoyamos empresas con potencial de crecimiento y liderazgo en el sector.",
+            "pill1": "Empresas de mercado medio con modelo de negocio probado, equipo directivo experimentado y capaz, alto potencial de crecimiento a medio plazo.",
+            "pill2": "Mínimo dos años de trayectoria y EBITDA mínimo de €5M.",
+            "pill3": "Apoyar el rápido crecimiento y expansión para investigación y desarrollo de producto, escalar ventas y capacidad de entrega, ampliar producción, desarrollar mercado."
+        },
+        "structure": {
+            "title": "Estructura",
+            "text": "Estructura de inversión adaptada para el crecimiento y el impacto.",
+            "subtitle": "Estructura de inversión",
+            "desc": "Modelo flexible adaptado a las necesidades del sector defensa.",
+            "card1": {
+                "title": "OTAN",
+                "desc": "Conocemos el presupuesto, la planificación y los ciclos operativos de la OTAN y los estados miembros, sus necesidades críticas y requisitos, y dónde se enfocará el gasto en defensa."
+            },
+            "card2": {
+                "title": "Startups",
+                "desc": "Aprovechamos nuestra experiencia y relaciones en los Estados Miembros y la OTAN para centrarnos en empresas que aborden estas necesidades críticas. Nuestra experiencia con startups nos permite evaluar qué negocios tienen la tecnología, el liderazgo y la visión para crecer y convertirse en ganadores rentables."
+            },
+            "card3": {
+                "title": "Incumbentes",
+                "desc": "Muchos actores quieren abastecer las necesidades más exigentes de defensa y seguridad, pero solo unos pocos pueden hacerlo realmente. Nuestras relaciones de larga data con OEMs abrirán oportunidades comerciales y estratégicas críticas para nuestro portafolio."
+            },
+            "card4": {
+                "title": "Tecnología",
+                "desc": "Esto es más que construir mejores drones: se trata de información a escala. El éxito en dominios disputados surgirá en los bordes, en sensorización, redes, enlaces seguros, ciberseguridad, IA y el espectro RF."
+            }
+        }
+    },
+    "partners": {
+        "label": "Socios",
+        "select": "Seleccionar socio",
+        "gallery": "Galería de socios",
+        "emilio": {
+            "name": "Emilio de la Guardia",
+            "role": "Socio General",
+            "bullets": [
+                "Liderazgo en capital de riesgo, private equity, fusiones y adquisiciones y préstamos estructurados",
+                "Ejecutivo senior en el Banco Europeo de Inversiones, lideró operaciones multinacionales y financiamiento para grandes programas de defensa, aviación y espacio (Airbus, lanzamiento Airane, Safran)",
+                "Inversor en private equity, fundador y asesor de juntas en múltiples startups aeroespaciales",
+                "Crecimiento industrial transfronterizo, financiación de tecnología dual y estrategia de inversión transatlántica"
+            ]
+        },
+        "sofia": {
+            "name": "Sofia Keller",
+            "role": "Socia",
+            "bullets": [
+                "Experta en adquisiciones de defensa",
+                "Lideró programas de licitación de la OTAN en la UE",
+                "Ex COO en scaleup de tecnología dual"
+            ]
+        },
+        "ana": {
+            "name": "Ana Moreau",
+            "role": "Socia de Venture",
+            "bullets": [
+                "Inversora aeroespacial, ex-Airbus",
+                "Estructuración de JV transatlánticas"
+            ]
+        },
+        "roland": {
+            "name": "Roland Weber",
+            "role": "Socio Operativo",
+            "bullets": [
+                "Fusiones y adquisiciones industriales y carve-outs",
+                "Más de 30 años en manufactura de defensa"
+            ]
+        }
+    }
+}

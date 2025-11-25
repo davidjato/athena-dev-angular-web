@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy, HostListener, ChangeDetectorRef } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 
 interface Partner {
@@ -11,58 +12,58 @@ interface Partner {
 
 @Component({
   selector: 'app-partners',
-  imports: [CommonModule],
+  imports: [CommonModule, TranslatePipe],
   templateUrl: './partners.html',
   styleUrl: './partners.scss',
 })
 export class Partners implements OnInit, OnDestroy {
-  constructor(private cdr: ChangeDetectorRef) {}
+  constructor(private cdr: ChangeDetectorRef) { }
   private autoPlayInterval: any;
   private autoPlayDelay = 5000; // 5 segundos
 
   partners: Partner[] = [
     {
-      name: "Emilio de la Guardia",
-      role: "General Partner",
+      name: 'partners.emilio.name',
+      role: 'partners.emilio.role',
       bullets: [
-        "Leadership across venture capital, private equity, M&A, and structured lending",
-        "Senior executive at European Investment Bank, led multi-country operations and financing for major defense, aviation, and space programs (Airbus, Airane launch, Safran)",
-        "Private equity investor, founder, and board advisor to multiple early-stage aerospace ventures",
-        "Cross-border industrial growth, dual-use technology finance, and transatlantic investment strategy"
+        'partners.emilio.bullets.0',
+        'partners.emilio.bullets.1',
+        'partners.emilio.bullets.2',
+        'partners.emilio.bullets.3'
       ],
-      image: "/assets/images/partners/1statue.png",
-      thumb: "/assets/images/partners/1statue.png"
+      image: '/assets/images/partners/1statue.png',
+      thumb: '/assets/images/partners/1statue.png'
     },
     {
-      name: "Sofia Keller",
-      role: "Partner",
+      name: 'partners.sofia.name',
+      role: 'partners.sofia.role',
       bullets: [
-        "Defense procurement expert",
-        "Led EU NATO tendering programs",
-        "Former COO at dual-use tech scaleup"
+        'partners.sofia.bullets.0',
+        'partners.sofia.bullets.1',
+        'partners.sofia.bullets.2'
       ],
-      image: "/assets/images/partners/2statue.png",
-      thumb: "/assets/images/partners/2statue.png"
+      image: '/assets/images/partners/2statue.png',
+      thumb: '/assets/images/partners/2statue.png'
     },
     {
-      name: "Ana Moreau",
-      role: "Venture Partner",
+      name: 'partners.ana.name',
+      role: 'partners.ana.role',
       bullets: [
-        "Aerospace investor, ex-Airbus",
-        "Transatlantic JV structuring"
+        'partners.ana.bullets.0',
+        'partners.ana.bullets.1'
       ],
-      image: "/assets/images/partners/3statue.png",
-      thumb: "/assets/images/partners/3statue.png"
+      image: '/assets/images/partners/3statue.png',
+      thumb: '/assets/images/partners/3statue.png'
     },
     {
-      name: "Roland Weber",
-      role: "Operating Partner",
+      name: 'partners.roland.name',
+      role: 'partners.roland.role',
       bullets: [
-        "Industrial M&A and carve-outs",
-        "30+ years in defense manufacturing"
+        'partners.roland.bullets.0',
+        'partners.roland.bullets.1'
       ],
-      image: "/assets/images/partners/4statue.png",
-      thumb: "/assets/images/partners/4statue.png"
+      image: '/assets/images/partners/4statue.png',
+      thumb: '/assets/images/partners/4statue.png'
     }
   ];
 
@@ -77,8 +78,10 @@ export class Partners implements OnInit, OnDestroy {
   }
 
   private startAutoPlay(): void {
+    this.stopAutoPlay(); // Evita duplicar intervalos
     this.autoPlayInterval = setInterval(() => {
       this.nextPartner();
+      this.cdr.detectChanges();
     }, this.autoPlayDelay);
   }
 

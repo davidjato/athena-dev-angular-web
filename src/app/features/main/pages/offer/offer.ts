@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy, HostListener, PLATFORM_ID, Inject, ChangeDetectorRef } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 import { isPlatformBrowser } from '@angular/common';
 import { MissionSteps } from '../../components/mission-steps/mission-steps';
 import { OpportunityMetrics } from '../../components/opportunity-metrics/opportunity-metrics';
@@ -8,7 +9,7 @@ import { InvestmentStructure } from '../../components/investment-structure/inves
 
 @Component({
   selector: 'app-offer',
-  imports: [MissionSteps, OpportunityMetrics, StakeholdersEcosystem, InvestmentFocus, InvestmentStructure],
+  imports: [MissionSteps, OpportunityMetrics, StakeholdersEcosystem, InvestmentFocus, InvestmentStructure, TranslatePipe],
   templateUrl: './offer.html',
   styleUrl: './offer.scss',
 })

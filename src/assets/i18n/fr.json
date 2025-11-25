@@ -1,0 +1,235 @@
+{
+    "home": {
+        "title": "Athena Allied SA",
+        "values": {
+            "wisdom": "Sagesse",
+            "strength": "Force",
+            "intelligence": "Intelligence"
+        }
+    },
+    "opinions": {
+        "title": "Pourquoi Athena?",
+        "subtitle": "Nos valeurs et forces",
+        "item1": {
+            "title": "Équipe experte",
+            "detail1": "Des décennies d'expérience",
+            "detail2": "Réseau mondial"
+        },
+        "item2": {
+            "title": "Vision stratégique",
+            "detail1": "Focus transatlantique",
+            "detail2": "Technologie à double usage",
+            "detail3": "Esprit de croissance"
+        },
+        "item3": {
+            "title": "Résultats",
+            "detail1": "Investissements réussis",
+            "detail2": "Impact à long terme"
+        },
+        "item4": {
+            "title": "Confiance",
+            "detail1": "Fiabilité",
+            "detail2": "Engagement"
+        }
+    },
+    "header": {
+        "home": "Accueil",
+        "offer": "Offre",
+        "partners": "Partenaires",
+        "about": "À propos",
+        "contact": "Contact",
+        "language": "Langue"
+    },
+    "contact": {
+        "title": "Toujours là pour vous",
+        "topic": "Sujet",
+        "topics": {
+            "investment": "Investissement",
+            "partnerships": "Partenariats",
+            "careers": "Carrières",
+            "other": "Autre"
+        },
+        "fullname": "Nom complet",
+        "email": "E-mail",
+        "message": "Votre message",
+        "privacy": "J'accepte la politique de confidentialité",
+        "send": "Envoyer"
+    },
+    "footer": {
+        "address": "75–51 Grand-Rue, 1661 Ville-Haute Luxembourg, Luxembourg",
+        "athena": "Athena",
+        "services": "Services",
+        "partners": "Partenaires",
+        "contact": "Contact"
+    },
+    "missionSteps": {
+        "title": "Les étapes de notre mission",
+        "card1": {
+            "title": "Fonds de 100M au Luxembourg",
+            "desc": "Équipe de conseil expérimentée réunissant des capitaux américains, européens et alliés pour investir et développer des entreprises européennes."
+        },
+        "card2": {
+            "title": "Objectif",
+            "desc": "Constituer un portefeuille diversifié et rentable d'investissements minoritaires directs dans les capacités européennes à double usage et de défense. Développer la base industrielle de défense européenne."
+        },
+        "card3": {
+            "title": "Intégré",
+            "desc": "Géré par Antwert Capital dans sa structure existante de fonds bien administrés."
+        },
+        "card4": {
+            "title": "Fonds fermé à long terme",
+            "desc": "Structure de 8+1+1 ans pour s'adapter au cycle de vente et aux délais de déploiement du secteur de la défense."
+        },
+        "card5": {
+            "title": "Timing et taille",
+            "desc": "Séries A–D. Le marché européen de la défense est prêt pour une disruption entre les startups très précoces et les grands OEMs."
+        }
+    },
+    "about": {
+        "title": "Athena Allied SA",
+        "values": {
+            "label": "Valeurs fondamentales",
+            "wisdom": "Sagesse",
+            "strength": "Force",
+            "intelligence": "Intelligence"
+        },
+        "panel1": {
+            "title": "Fonds de Défense",
+            "p1": "Nous sommes le conseiller en investissement du Athena Allied Defense Fund, un fonds luxembourgeois de défense et de sécurité qui réunit des investisseurs américains et européens pour soutenir les startups et les PME dans les pays de l'OTAN en Europe.",
+            "p2": "Les partenaires fondateurs de ce conseiller en investissement apportent des décennies d'expérience dans les secteurs public et privé de la défense, de la sécurité et de la politique étrangère. Notre expertise en politique de défense, mécanismes d'acquisition, exigences évolutives des combattants, financement et investissement dans l'industrie de la défense, ainsi que notre vaste réseau de dirigeants de l'industrie, d'écosystèmes de startups et de responsables politiques de la défense aux États-Unis et en Europe, offrent des perspectives inestimables sur l'avenir des besoins et des dépenses de défense européenne."
+        },
+        "panel2": {
+            "title": "Services de conseil",
+            "p1": "Nous conseillons les entreprises de défense et de sécurité américaines et européennes établies et matures qui recherchent des opportunités de croissance et d'expansion dans les pays de l'OTAN.",
+            "li1": "Nous identifions des opportunités de croissance grâce à des partenariats et à la collaboration entre les entreprises européennes et entre les États-Unis et l'Europe.",
+            "li2": "Nous mettons à profit notre expertise des exigences et des processus d'acquisition de l'OTAN et de l'Europe pour aider les entreprises à soumissionner avec succès aux appels d'offres gouvernementaux.",
+            "li3": "Nous facilitons et exécutons des accords et des contrats transatlantiques réunissant des entreprises américaines et européennes pour répondre aux besoins croissants de la défense de l'OTAN.",
+            "li4": "Nous sommes la solution idéale pour les entreprises américaines et européennes qui souhaitent profiter des opportunités offertes par les nouveaux besoins de dépenses de défense convenus par les pays européens au sein de l'OTAN."
+        },
+        "contact": "Contact"
+    },
+    "offer": {
+        "title": "Notre Offre",
+        "subtitle": "Investissement et croissance pour la défense européenne",
+        "sections": "Sections de l'offre",
+        "mission": {
+            "title": "Mission",
+            "text": "Notre mission est de soutenir l'innovation en défense européenne par l'investissement stratégique et les partenariats."
+        },
+        "opportunity": {
+            "title": "Opportunité",
+            "text": "Opportunités de marché uniques dans la défense et les technologies à double usage.",
+            "subtitle": "Secteurs clés",
+            "desc": "Innovation, technologie à double usage et nouvelles opportunités dans la défense européenne.",
+            "metrics": {
+                "irr": "Taux de rendement interne",
+                "horizon": "Horizon",
+                "exits": "Exits",
+                "trust": "Confiance",
+                "title1": "Taille du marché",
+                "title2": "Taux de croissance",
+                "title3": "Volume d'investissement",
+                "title4": "Acteurs clés",
+                "spend": "Dépenses",
+                "nato": "NATO",
+                "capital": "Capital",
+                "cagr": "CAGR",
+                "expansion": "Expansion",
+                "innovation": "Innovation",
+                "growth": "Croissance"
+            }
+        },
+        "stakeholders": {
+            "ecosystem": {
+                "title1": "Écosystème de financement de la défense européenne",
+                "card1": "€800 milliards dans les programmes EU SAFE & REARM",
+                "card2": "€50 milliards en prêts bonifiés (60 ans – 10 ans de différé)",
+                "card3": "NATO NIF et DIANA, EU EIC pour la technologie émergente",
+                "card4": "Fonds et investissements nationaux annoncés en Europe et au Royaume-Uni",
+                "card5": "Les ventures OEM s'étendent en Europe",
+                "title2": "Répondre aux besoins de capital de la défense européenne",
+                "pill1": "Climat réglementaire européen existant",
+                "pill2": "Pipeline réel de programmes contractés et notre réseau",
+                "pill3": "Notre expertise en contrats militaires et civils",
+                "pill4": "Résoudre le goulot d'étranglement du capital en Series A–C pour une montée en puissance rapide",
+                "pill5": "Tissu conjonctif : capital, soutien militaire et politique",
+                "pill6": "Expertise en cybersécurité, réglementation, export et contrôles commerciaux"
+            },
+            "title": "Parties prenantes",
+            "text": "Collaboration avec des parties clés en Europe et l'OTAN.",
+            "subtitle": "Principaux collaborateurs",
+            "desc": "Partenariats stratégiques avec des institutions et entreprises leaders."
+        },
+        "focus": {
+            "title": "Focus",
+            "text": "Focus sur des entreprises innovantes et évolutives avec un leadership avéré.",
+            "subtitle": "Notre focus",
+            "desc": "Nous soutenons des entreprises avec un potentiel de croissance et un leadership dans le secteur.",
+            "pill1": "Entreprises de taille moyenne avec un modèle commercial éprouvé, une équipe de direction expérimentée et compétente, un fort potentiel de croissance à moyen terme.",
+            "pill2": "Minimum deux ans d'expérience et EBITDA minimum de €5M.",
+            "pill3": "Soutenir la croissance rapide et l'expansion pour la recherche et le développement de produits, augmenter les ventes et la capacité de livraison, développer la production, développer le marché."
+        },
+        "structure": {
+            "title": "Structure",
+            "text": "Structure d'investissement adaptée à la croissance et à l'impact.",
+            "subtitle": "Structure d'investissement",
+            "desc": "Modèle flexible adapté aux besoins du secteur de la défense.",
+            "card1": {
+                "title": "NATO",
+                "desc": "Nous connaissons le budget, la planification et les cycles opérationnels de l'OTAN et des États membres, leurs besoins et exigences critiques, et où les dépenses de défense seront concentrées."
+            },
+            "card2": {
+                "title": "Startups",
+                "desc": "Nous utilisons notre expérience et nos relations dans les États membres et l'OTAN pour nous concentrer sur les entreprises qui répondent à ces besoins critiques. Notre expérience avec les startups nous permet d'évaluer quelles entreprises ont la technologie, le leadership et la vision pour croître et devenir des gagnants rentables."
+            },
+            "card3": {
+                "title": "Acteurs établis",
+                "desc": "De nombreux acteurs veulent répondre aux besoins les plus exigeants en matière de défense et de sécurité, mais seuls quelques-uns peuvent vraiment le faire. Nos relations de longue date avec les OEM ouvriront des opportunités commerciales et stratégiques critiques pour notre portefeuille."
+            },
+            "card4": {
+                "title": "Technologie",
+                "desc": "Il ne s'agit pas seulement de construire de meilleurs drones : il s'agit d'information à grande échelle. Le succès dans les domaines contestés émergera aux marges, dans la détection, les réseaux, les connexions sécurisées, la cybersécurité, l'IA et le spectre RF."
+            }
+        }
+    },
+    "partners": {
+        "label": "Partenaires",
+        "select": "Sélectionner un partenaire",
+        "gallery": "Galerie de partenaires",
+        "emilio": {
+            "name": "Emilio de la Guardia",
+            "role": "Associé Général",
+            "bullets": [
+                "Leadership dans le capital-risque, le private equity, les fusions-acquisitions et les prêts structurés",
+                "Cadre supérieur à la Banque européenne d'investissement, a dirigé des opérations et financements multi-pays pour des programmes majeurs de défense, d'aviation et d'espace (Airbus, lancement Airane, Safran)",
+                "Investisseur en private equity, fondateur et conseiller de plusieurs startups aérospatiales en phase de démarrage",
+                "Croissance industrielle transfrontalière, financement de technologies duales et stratégie d'investissement transatlantique"
+            ]
+        },
+        "sofia": {
+            "name": "Sofia Keller",
+            "role": "Associée",
+            "bullets": [
+                "Experte en achats de défense",
+                "A dirigé des programmes d'appel d'offres OTAN UE",
+                "Ancienne COO dans une scaleup de technologie duale"
+            ]
+        },
+        "ana": {
+            "name": "Ana Moreau",
+            "role": "Associée Venture",
+            "bullets": [
+                "Investisseuse aérospatiale, ex-Airbus",
+                "Structuration de JV transatlantiques"
+            ]
+        },
+        "roland": {
+            "name": "Roland Weber",
+            "role": "Associé Opérationnel",
+            "bullets": [
+                "Fusions-acquisitions industrielles et carve-outs",
+                "Plus de 30 ans dans la fabrication de défense"
+            ]
+        }
+    }
+}
